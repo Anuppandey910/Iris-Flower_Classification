@@ -1,6 +1,11 @@
 import streamlit as st
 import pickle
 
+from sklearn.linear_model import LogisticRegression
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.neighbors import KNeighborsClassifier
+
 lr = pickle.load(open('lr_model.pkl','rb'))
 dt = pickle.load(open('dt_model.pkl','rb'))
 rf = pickle.load(open('rf_model.pkl','rb'))
