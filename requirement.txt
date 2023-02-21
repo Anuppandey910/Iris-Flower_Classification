@@ -1,5 +1,4 @@
 streamlit==1.18.1
 numpy==1.21.5
-scikit-image                  0.19.2
 scikit-learn                  1.0.2
-scikit-learn-intelex          2021.20220215.102710
+
